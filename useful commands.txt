@@ -1,0 +1,78 @@
+Useful commands
+
+# Reset workspace from remote repo
+
+git fetch origin
+git reset --hard origin/<branch name>
+git clean -f -d
+Explanation: git fetch grabs the latest version of the repository. git reset discards any local changes on your branch to tracked files. git clean removes any untracked binary files from your local copy.
+
+# Save current work and update develop. Push local work
+
+Git stash save -u
+Git checkout develop
+Git fetch
+Git pull origin develop —rebase
+Git checkout TNP-19xx
+Git rebase develop TNP-19xx
+Git stash apply
+Git push -f origin TNP-19xx
+
+# Reset commits
+
+Git log
+Git reset HEAD^ # revert changes to previous commit
+Git reset —hard # reset index and working tree, discard changes before last merged commit
+git reset --hard 0254ea7
+
+# Update local branches
+
+Git fetch # actualiza todas las ramas locales llamando las remotas
+Git checkout . # elimina cambios locales
+Git add . # para color en stage archivos con modificaciones
+Git commit -m “”
+Git push
+Git pull origin develop —rebase # actualiza cambios remotos usando los cambios locales
+Git rebase develop TNP-198xxx # actualiza rama local con cambios remotos en develop
+Git commit -m “xxxx” git push -f origin TNP-xxx
+
+# Discard local changes
+Git checkout . # descartar todos los cambios en rama local
+
+# Discard local changes and apply stash
+git checkout -p stash # cuando hice stash, luego a develop, luego a la rama anterior, hice un cambio, pero quiero borrar esos cambios y montar el stash
+
+# in case spec automation fails in build pull
+Git submodules update —recursive
+
+Partial always used as:
+render(partial: ‘members/roles_form’)
+
+# Verify test coverage
+SIMPLECOV=1 bundle exec spec spec/models/payment_workflow_spec.rb
+
+# Reset commits in workspace and reset in remote
+git reset HEAD^ # remove commit locally
+git push origin +HEAD # force-push the new HEAD commit
+
+# Console
+Bundle exec rails console
+
+Rails.helper.sanitize(“<br /> this string”)
+
+ApplicationController.helpers
+
+ApplicationController.helpers.sanitize <<-JS
+[13] pry(main)* "this string <>"
+[13] pry(main)* JS
+=> "\"this string &lt;&gt;\"\n"
+
+git fetch && git pull && git submodule update --init --recursive
+
+# Want to checkout a single file from develop
+git checkout origin/develop -- ./app/models/checklist_tools/display_group.rb
+
+# Merge remote branch to workspace
+Git merge origin/TNP-198xxxxx
+
+gem install mysql2 -v '0.5.3' -- --with-ldflags=-L/usr/local/opt/openssl/lib --with-cppflags=-I/usr/local/opt/openssl/include

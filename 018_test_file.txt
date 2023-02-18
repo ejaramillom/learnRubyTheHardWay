@@ -1,0 +1,3 @@
+"we have a test file to evaluate on ex20"
+"multiple lines must be wrote"
+"the last input is the most important"

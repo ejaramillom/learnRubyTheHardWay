@@ -1,0 +1,70 @@
+pwd
+print working directory
+
+hostname
+my computer's network name
+
+mkdir
+make directory
+
+cd
+change directory
+
+ls
+list directory
+
+rmdir
+remove directory
+
+pushd
+push directory
+
+popd
+pop directory
+
+cp
+copy a file or directory
+
+robocopy
+robust copy
+
+mv
+move a file or directory
+
+more
+page through a file
+
+type
+print the whole file
+
+forfiles
+run a command on lots of files
+
+dir -r
+find files
+
+select-string
+find things inside files
+
+help
+read a manual page
+
+helpctr
+find what man page is appropriate
+
+echo
+print some arguments
+
+set
+export/set a new environment variable
+
+exit
+exit the shell
+
+runas
+DANGER! become super user root DANGER!
+
+Remove-Item 'D:\temp\Test Folder\test.txt'
+Removes the object in the selected location
+
+In this appendix I'm using the / (slash) character for all paths since they work the same on all computers now. However, Windows users will need to know that you can also use the \ (backslash) character and other Windows users will typically expect that at times.

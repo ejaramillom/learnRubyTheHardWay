@@ -1,0 +1,10 @@
+Death
+This is when the player dies and should be something funny.
+Central Corridor
+This is the starting point and has a Gothon already standing there that the players have to defeat with a joke before continuing.
+Laser Weapon Armory
+This is where the hero gets a neutron bomb to blow up the ship before getting to the escape pod. It has a keypad the hero has to guess the number for.
+The Bridge
+Another battle scene with a Gothon where the hero places the bomb.
+Escape Pod
+Where the hero escapes but only after guessing the right escape pod.

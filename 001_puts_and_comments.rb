@@ -1,0 +1,1 @@
+puts "i have a code like this" # and then a comment that dissapears

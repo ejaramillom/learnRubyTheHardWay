@@ -1,0 +1,14 @@
+I'm going to describe a process to use when you want to build something using Ruby, specifically with object-oriented programming (OOP). What I mean by a "process" is that I'll give you a set of steps that you do in order but that you aren't meant to be a slave to or that will totally always work for every problem. They are just a good starting point for many programming problems and shouldn't be considered the only way to solve these types of problems. This process is just one way to do it that you can follow.
+
+The process is as follows:
+
+Write or draw about the problem.
+Extract key concepts from 1 and research them.
+Create a class hierarchy and object map for the concepts.
+Code the classes and a test to run them.
+Repeat and refine.
+The way to look at this process is that it is "top down," meaning it starts from the very abstract loose idea and then slowly refines it until the idea is solid and something you can code.
+
+I start by just writing about the problem and trying to think up anything I can about it. Maybe I'll even draw a diagram or two, maybe a map of some kind, or even write myself a series of emails describing the problem. This gives me a way to express the key concepts in the problem and also explore what I might already know about it.
+
+Then I go through these notes, drawings, and descriptions, and I pull out the key concepts. There's a simple trick to doing this: Simply make a list of all the nouns and verbs in your writing and drawings, then write out how they're related. This gives me a good list of names for classes, objects, and functions in the next step. I take this list of concepts and then research any that I don't understand so I can refine them further if needed.
